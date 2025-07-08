@@ -9,7 +9,7 @@ public class Teste {
         c1.saldo = 1000.0;
         c1.dataAbertura = "05/07/2025";
 
-        System.out.println("=== Conta c1 antes das operações ===");
+        System.out.println("Conta c1 antes das operações");
         System.out.println(c1.recuperaDadosParaImpressao());
 
         c1.saca(200.0);
