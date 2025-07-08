@@ -1,4 +1,4 @@
-package java;
+package app;
 
 public class Teste {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Teste {
         c3.titular = "Danilo";
         c3.saldo   = 100.0;
 
-        System.out.print("\nComparando c2 e c3 (objetos distintos): ");
+        System.out.print("\nComparando c2 e c3: ");
         if (c2 == c3) {
             System.out.println("iguais");
         } else {
@@ -45,10 +45,9 @@ public class Teste {
         } else {
             System.out.println("diferentes");
         }
+        System.out.println("O que acontece com o if do exercício anterior? c2 == c3, resulta em false, pois mesmo tendo os mesmo valores, são objetos diferentes. Já c5 =c4 apontam para o mesmo objeto, sendo assim, true.");
     }
 }
 
-//O que acontece com o if do exercício anterior?
 
-//c2 == c3, resulta em false, pois mesmo tendo os mesmo valores, são objetos diferentes.
-// Já c5 =c4 apontam para o mesmo objeto, sendo assim, true
+

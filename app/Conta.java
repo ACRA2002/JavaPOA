@@ -1,4 +1,4 @@
-package java;
+package app;
 
 public class Conta {
     public String titular;
